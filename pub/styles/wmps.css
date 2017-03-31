@@ -1,0 +1,67 @@
+.maintext {font-family: verdana; color: #08419C; font-size: 17pt;  }
+
+.menusection-Welcome,
+.menusection-ProcessShoppingOrder,
+.menusection-DocumentManagement,
+.menusection-ElectronicPrescription,
+.menusection-Admin,
+.menusection-IssueResolution,
+.menusection-OnlineShopping,
+.menusection-OrderFulfilment,
+.menusection-TicketVendingMachine
+	{
+	color: #FFFFFF;
+	letter-spacing: 2pt;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 15px;
+	}
+
+.menusection-Welcome
+	{
+	background-color: #187863;
+	border-bottom: 1px solid #135F4E;
+	}
+
+.menusection-Admin
+	{
+	background-color: #00FF00;
+	border-bottom: 1px solid #135F4E;
+	}
+
+.menusection-ProcessShoppingOrder
+	{
+	background-color: #006F97;
+	border-bottom: 1px solid #135F4E;
+	}
+.menusection-DocumentManagement
+	{
+	background-color: #006F97;
+	border-bottom: 1px solid #135F4E;
+	}
+
+.menusection-ElectronicPrescription
+	{
+	background-color: #006F97;
+	border-bottom: 1px solid #135F4E;
+	}
+.menusection-IssueResolution
+	{
+	background-color: #006F97;
+	border-bottom: 1px solid #135F4E;
+	}
+.menusection-OnlineShopping
+	{
+	background-color: #006F97;
+	border-bottom: 1px solid #135F4E;
+	}
+.menusection-OrderFulfilment
+	{
+	background-color: #006F97;
+	border-bottom: 1px solid #135F4E;
+	}
+.menusection-TicketVendingMachine
+	{
+	background-color: #006F97;
+	border-bottom: 1px solid #135F4E;
+	}

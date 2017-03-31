@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="3.0" CLEANUP="true">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP TIMEOUT="" MODE="STANDALONE">
+  <COMMENT></COMMENT>
+  <MAPTARGET>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="wrapper_type">IData</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">buttonUrls</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">IData</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">UseCases.ProcessShoppingOrder.Documents:buttonUrls</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPTARGET>
+  <MAPSOURCE>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="wrapper_type">IData</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPSOURCE>
+
+  <!-- nodes -->
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/buttonUrls;4;0;UseCases.ProcessShoppingOrder.Documents:buttonUrls">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <array name="sections" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="name">ProcessShoppingOrder</value>
+        <value name="text">Process Shopping Order</value>
+        <array name="submenu" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="name">SubmitOrder</value>
+            <value name="text">Submit Order</value>
+            <value name="url">include/submitorder.html</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="name">SubmitPayment</value>
+            <value name="text">Submit Payment</value>
+            <value name="url">include/submitpayment.dsp</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="name">ListOrders</value>
+            <value name="text">List Orders</value>
+            <value name="url">include/searchorders.dsp</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="name">ShowCatalogue</value>
+            <value name="text">Show Catalogue</value>
+            <value name="url">include/catalog.dsp</value>
+          </record>
+        </array>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="name">DocumentManagement</value>
+        <value name="text">Document Management</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="name">ElectronicPrescription</value>
+        <value name="text">Electronic Prescription</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="name">IssueResolution</value>
+        <value name="text">Issue Resolution</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="name">OnlineShopping</value>
+        <value name="text">Online Shopping</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="name">OrderFulfilment</value>
+        <value name="text">Order Fulfilment</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="name">TicketVendingMachine</value>
+        <value name="text">Ticket Vending Machine</value>
+      </record>
+    </array>
+  </record>
+</Values>
+</DATA>
+</MAPSET>
+</MAP>
+</FLOW>
